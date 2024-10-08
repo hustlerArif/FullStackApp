@@ -21,5 +21,5 @@ mongoose.connect(
 app.use("/api", item);
 
 app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`);
+  console.log(`This app listening on port ${port}`);
 });
